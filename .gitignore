@@ -1,0 +1,79 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignorer les fichiers binaires et compilés
+*.class
+*.war
+*.jar
+
+# Ignorer les fichiers de logs
+logs/
+*.log
+*.out
+*.err
+
+# Ignorer les fichiers de configuration sensibles
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+
+# Ignorer les fichiers spécifiques à IntelliJ IDEA
+.idea/
+
+# Ignorer les fichiers spécifiques à Eclipse
+.settings/
+.target/
+
+# Ignorer les fichiers des dépendances Maven et Gradle
+mvnw
+mvnw.cmd
+.gradle/
+
+# Ignorer les fichiers de base de données locales
+*.db
+*.sqlite
+
+# Ignorer les fichiers générés par l'OS
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de test
+test-output/
+
+# Ignorer les fichiers de Docker (si applicable)
+docker-compose.override.yml
+
+# Ignorer les fichiers d’environnement
+.env
